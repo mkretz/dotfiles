@@ -1,10 +1,8 @@
 [user]
-    name = Lena Fuhrimann
-    email = lena.fuhrimann@protonmail.com
+    name = Mathis Kretz
+    email = mathis.kretz@gmail.com
 [github]
-    user = mastertinner
-[commit]
-    gpgsign = true
+    user = mkretz
 [core]
     pager = diff-so-fancy | less --tabs=4 -RFX
 [pull]
