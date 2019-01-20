@@ -152,5 +152,11 @@ Plug 'cespare/vim-toml', { 'for': 'toml' }
 " nginx
 Plug 'chr4/nginx.vim', { 'for': 'nginx' }
 
+" Python
+Plug 'nvie/vim-flake8', { 'for': 'python'}
+
+" jsonnet
+Plug 'google/vim-jsonnet'
+
 " Initialize plugin system
 call plug#end()
