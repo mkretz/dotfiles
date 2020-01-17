@@ -28,3 +28,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # tabtab source for slss package
 # uninstall by removing these lines or running `tabtab uninstall slss`
 [[ -f /Users/taakrma0/.node_modules/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/taakrma0/.node_modules/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
