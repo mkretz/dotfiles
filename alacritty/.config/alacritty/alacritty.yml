@@ -39,3 +39,5 @@ key_bindings:
   - { key: Key0, mods: Command, action: ResetFontSize }
   - { key: Plus, mods: Command, action: IncreaseFontSize }
   - { key: Minus, mods: Command, action: DecreaseFontSize }
+
+alt_send_esc: false
